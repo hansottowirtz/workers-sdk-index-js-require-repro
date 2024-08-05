@@ -1,6 +1,6 @@
 # workers-sdk-index-js-require-repro
 
-`vendor/ext-dep` has a CommonJS dependency.
+`vendor/ext-dep` is a CommonJS dependency.
 
 `ext-dep/index.js` requires `ext-dep/subfolder`, which should resolve to `ext-dep/subfolder/index.js`, but does not in `@cloudflare/vitest-pool-workers`.
 
